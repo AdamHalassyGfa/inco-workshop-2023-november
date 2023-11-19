@@ -13,6 +13,22 @@ This directory contains a prototype project with extended functionality.
 ## Workshop
 I have put the code from the workshop here.
 
+# Some guide to Docker
+
+Use the following commands to build and start a container with Docker Compose. 
+  You need to navigate to the directory containing the docker-compose.yaml file.
+
+```
+docker-compose build
+docker-compose up
+```
+
+
+You can start the container in the background with the following command:
+```
+docker-compose up --detach
+```
+
 # Useful links
 
 ## XPath syntax
