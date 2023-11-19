@@ -1,0 +1,8 @@
+version: "3.7"
+services:
+  scraper:
+    build:
+      dockerfile: Dockerfile
+      context: .
+    volumes:
+      - ./data/:/opt/scraper/data/
